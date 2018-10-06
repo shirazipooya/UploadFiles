@@ -1,0 +1,10 @@
+name: uploadfiles
+title:
+username:
+account: shirazipooya
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 496568
+bundleId: 1625697
+url: https://shirazipooya.shinyapps.io/uploadfiles/
+when: 1538767156.2006
