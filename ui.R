@@ -19,6 +19,11 @@ shiny::fluidPage(
                     label = "Select Your Group:",
                     choices = character(0)
                 ),
+                shiny::dateInput(
+                    inputId = 'selectdate',
+                    label = 'Select Your Class Time',
+                    value = Sys.Date()
+                ),
                 shiny::selectInput(
                     inputId = "selectTeam",
                     label = "Select Your Team:",

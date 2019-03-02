@@ -41,7 +41,8 @@ function(input, output, session) {
             
             oldName <- file$datapath
             
-            newName <- paste(substr(x = oldName, start = 1, stop = nchar(oldName) - 5), input$selectTeam, ".zip", sep = "")
+            newName <- paste(substr(x = oldName, start = 1, stop = nchar(oldName) - 5), 
+                             input$selectdate, '-', input$selectTeam, ".zip", sep = "")
             
             file.rename(from = oldName, to = newName)
             
