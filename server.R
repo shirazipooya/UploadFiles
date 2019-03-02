@@ -14,11 +14,8 @@ function(input, output, session) {
                 )
             } else {
                 choices = list(
-                    "Water Engineering - Group 01" = "Group 01",
-                    "Water Engineering - Group 11" = "Group 11",
-                    "Water Engineering - Group 21" = "Group 21",
-                    "Production Engineering and Plant Genetics - Group 09" = "Group 09",
-                    "General - Group 02" = "Group 02"
+                    "General Irrigation - Group 08" = "Group 08",
+                    "General Irrigation - Group 18" = "Group 18"
                 )
             }
             

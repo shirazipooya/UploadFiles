@@ -5,6 +5,8 @@ account: shirazipooya
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 496568
-bundleId: 1625697
+bundleId: 1910578
 url: https://shirazipooya.shinyapps.io/uploadfiles/
-when: 1538767156.2006
+when: 1551510827.25135
+asMultiple: FALSE
+asStatic: FALSE

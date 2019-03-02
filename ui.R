@@ -10,7 +10,7 @@ shiny::fluidPage(
                     inputId = "selectClass",
                     label = "Select Your Class:",
                     choices = list(
-                        "Computer Programming Class" = "CompProgClass",
+                        # "Computer Programming Class" = "CompProgClass",
                         "Practical Irrigation Class" = "PracIrriClass"
                     )
                 ),
@@ -27,16 +27,7 @@ shiny::fluidPage(
                         "Team B" = "B",
                         "Team C" = "C",
                         "Team D" = "D",
-                        "Team E" = "E",
-                        "Team F" = "F",
-                        "Team G" = "G",
-                        "Team H" = "H",
-                        "Team I" = "I",
-                        "Team J" = "J",
-                        "Team K" = "K",
-                        "Team L" = "L",
-                        "Team M" = "M",
-                        "Team N" = "N"
+                        "Team E" = "E"
                     )
                 ),
                 shiny::textInput(
